@@ -17,14 +17,23 @@ Bạn có thể mở file `index.html` trong trình duyệt để xem hiệu ứ
 
 Anh-Cube/
 ├── index.html            # File HTML chính
+
 ├── css/
+
 │   └── styles.css        # CSS cho cube và giao diện
+
 ├── images/
+
 │   ├── a1.gif            # Ảnh động mặt cube
+
 │   ├── a2.gif
+
 │   ├── a3.gif
+
 │   ├── a4.gif
+
 │   ├── a5.gif
+
 │   └── a6.gif
 
 ---
