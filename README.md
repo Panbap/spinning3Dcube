@@ -1,34 +1,59 @@
 # spinning3Dcube
 
-Site: https://panbap.github.io/spinning3Dcube/
+Dự án web đơn giản tạo hiệu ứng khối lập phương (cube) 3D với các mặt là ảnh GIF.  
+Kèm theo đó là tin nhắn thay đổi xen kẽ giúp tạo không khí lãng mạn, nhẹ nhàng.
 
-## Table of Contents
-1. [Giới Thiệu](#giới-thiệu)
-2. [Video Hướng Dẫn](#video-hướng-dẫn)
-3. [Donate](#donate)
-4. [Liên Hệ](#liên-hệ)
+---
 
-## Giới Thiệu
-Đây là một dự án mã nguồn mở dành cho những ai muốn học hỏi và nghiên cứu về các thuật toán. 
-Bạn có thể sử dụng và tùy chỉnh mã nguồn này để áp dụng vào các dự án của riêng mình.
+## 🚀 Demo
 
-## Video Hướng Dẫn
-Hãy xem video hướng dẫn chi tiết về cách sử dụng và triển khai dự án của chúng tôi trên kênh YouTube:
+Bạn có thể mở file `index.html` trong trình duyệt để xem hiệu ứng hoạt động.
 
-[**Kênh YouTube**](https://www.youtube.com/channel/UCLRtmxFJ651hDXEOtxOzQqw)
+---
 
-## Donate
-Nếu bạn thấy dự án này hữu ích và muốn đóng góp để hỗ trợ chúng tôi tiếp tục phát triển, bạn có thể ủng hộ qua các phương thức sau:
-- **Donate tôi**: https://panbap.github.io/Donate/donate.html
-- **PayPal**:
+## 📂 Cấu trúc dự án
 
-Chúng tôi rất trân trọng mọi sự đóng góp của bạn!
+```text
+Anh-Cube/
+├── index.html            # File HTML chính
+├── css/
+│   └── styles.css        # CSS cho cube và giao diện
+├── images/
+│   ├── a1.gif            # Ảnh động mặt cube
+│   ├── a2.gif
+│   ├── a3.gif
+│   ├── a4.gif
+│   ├── a5.gif
+│   └── a6.gif
 
-## Liên Hệ
+## 🎨 Mô tả
+Giao diện hiển thị 2 cube (outer-cube và inner-cube) chồng lên nhau với các ảnh GIF trên từng mặt.
 
-Nếu bạn có câu hỏi, phản hồi hoặc yêu cầu hỗ trợ, vui lòng liên hệ với chúng tôi qua:
+Phía trên có tiêu đề "My Love".
 
-- **Tiktok**: https://www.tiktok.com/@panbap369
+Bên dưới cube có phần tin nhắn (class .tip) thay đổi định kỳ mỗi 4 giây, thể hiện lời nhắn nhẹ nhàng.
 
-Cảm ơn bạn đã quan tâm đến dự án của chúng tôi!
+Hiệu ứng 3D và các ảnh GIF tạo cảm giác sống động.
 
+## ⚙️ Cách chạy
+Tải hoặc clone repo về.
+
+Mở index.html bằng trình duyệt hiện đại (Chrome, Firefox, Edge…).
+
+Đảm bảo các file ảnh GIF trong thư mục images/ và CSS trong css/styles.css đều có sẵn.
+
+## 💻 Công nghệ sử dụng
+HTML5
+
+CSS3 (3D transform để tạo hiệu ứng cube)
+
+JavaScript (thay đổi nội dung tin nhắn theo thời gian)
+
+## 📝 Lời nhắn
+"Đi đi em do dự trời tối mất",
+"Cười đi em ủ rũ ngày trôi mất",
+"Tin đi đừng để lòng thêm khổ",
+"Nói đi em im lặng duyên không chờ",
+"Yêu đi em sợ hãi ta mất nhau"
+
+> Nếu cần hỗ trợ thêm phần CSS hoặc hiệu ứng cube, bạn cứ nói nhé!
