@@ -14,7 +14,7 @@ Bạn có thể mở file `index.html` trong trình duyệt để xem hiệu ứ
 ---
 
 ## 📂 Cấu trúc dự án
-'''
+```text
 Anh-Cube/
 ├── index.html            # File HTML chính
 ├── css/
@@ -26,7 +26,7 @@ Anh-Cube/
 │   ├── a4.gif
 │   ├── a5.gif
 │   └── a6.gif
-'''
+```
 ---
 
 ## 🎨 Mô tả
