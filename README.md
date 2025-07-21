@@ -63,5 +63,3 @@ JavaScript (thay đổi nội dung tin nhắn theo thời gian)
 "Tin đi đừng để lòng thêm khổ",
 "Nói đi em im lặng duyên không chờ",
 "Yêu đi em sợ hãi ta mất nhau"
-
-> Nếu cần hỗ trợ thêm phần CSS hoặc hiệu ứng cube, bạn cứ nói nhé!
